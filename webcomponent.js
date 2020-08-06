@@ -65,12 +65,16 @@
 			var square1 = document.getElementById("#square1");
 			var square2 = document.getElementById("path#square1");
 			var square3 = document.querySelector("#__widget0 > com-sap-sample-squares").shadowRoot.querySelector("#square1");
+			var square4 = this._shadowRoot;
+			var square5 = this.shadowRoot;
 			//square1.setAttribute("fill", newColorValue);
 			console.log(square1);
 			console.log("Square2: " + square2);
 			console.log("Square3: " + square3);
 			square3.setAttribute("fill", newColorValue);
 			console.log(square3.fill);
+			console.log(square4);
+			console.log(square5);
 		}
 
         redraw(){

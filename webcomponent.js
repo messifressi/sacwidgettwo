@@ -62,7 +62,7 @@
         */
 		
 		setSquare1(newColorValue){
-			var square1 = document.getElementById("square1");
+			var square1 = document.getElementById("#square1");
 			//square1.setAttribute("fill", newColorValue);
 			console.log(square1);
 		}

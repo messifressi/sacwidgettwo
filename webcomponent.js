@@ -65,7 +65,7 @@
 			var square1 = document.getElementById("#square1");
 			var square2 = document.getElementById("path#square1");
 			var square3 = document.querySelector("#__widget0 > com-sap-sample-squares").shadowRoot.querySelector("#square1");
-			var square4 = this._shadowRoot;
+			var square4 = this._shadowRoot.querySelector("#square1");
 			var square5 = this.shadowRoot;
 			//square1.setAttribute("fill", newColorValue);
 			console.log(square1);

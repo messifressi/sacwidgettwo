@@ -64,9 +64,11 @@
 		setSquare1(newColorValue){
 			var square1 = document.getElementById("#square1");
 			var square2 = document.getElementById("path#square1");
+			var square3 = document.querySelector("#__widget0 > com-sap-sample-squares").shadowRoot.querySelector("#square1");
 			//square1.setAttribute("fill", newColorValue);
 			console.log(square1);
 			console.log(square2);
+			console.log(square3);
 		}
 
         redraw(){

@@ -63,9 +63,10 @@
 		
 		setSquare1(newColorValue){
 			var square1 = document.getElementById("#square1");
+			var square2 = document.getElementById("path#square1");
 			//square1.setAttribute("fill", newColorValue);
 			console.log(square1);
-			console.log(square1);
+			console.log(square2);
 		}
 
         redraw(){

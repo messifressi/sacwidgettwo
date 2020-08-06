@@ -69,6 +69,7 @@
 			console.log(square1);
 			console.log("Square2: " + square2);
 			console.log("Square3: " + square3);
+			square3.setAttribute("fill", newColorValue);
 		}
 
         redraw(){

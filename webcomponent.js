@@ -79,7 +79,7 @@
        id="SP08"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="square1"
        width="10"
        height="20"

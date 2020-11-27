@@ -611,7 +611,7 @@
 			console.log(square5);
 		}
 		
-		setSquare(newValues){
+		setSquares(newValues){
 			var square4 = this._shadowRoot.querySelector("#square1");
 			var ks01 = this._shadowRoot.querySelector("#KS01");
 			var ks02 = this._shadowRoot.querySelector("#KS02");

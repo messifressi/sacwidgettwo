@@ -613,8 +613,10 @@
 		
 		setSquares(newValues){
 			console.log(newValues);
-			/*
+			
 			var ks01 = this._shadowRoot.querySelector("#KS01");
+			ks01.setAttribute("fill", getColor(newValues[0]));
+			/*
 			var ks02 = this._shadowRoot.querySelector("#KS02");
 			var ks03 = this._shadowRoot.querySelector("#KS03");
 			var ks04 = this._shadowRoot.querySelector("#KS04");
@@ -628,7 +630,7 @@
 			var ks12 = this._shadowRoot.querySelector("#KS12");
 			var ks13 = this._shadowRoot.querySelector("#KS13");
 			var ks14 = this._shadowRoot.querySelector("#KS14");
-			ks01.setAttribute("fill", getColor(newValues[0]));
+			
 			ks02.setAttribute("fill", getColor(newValues[1]));
 			ks03.setAttribute("fill", getColor(newValues[2]));
 			ks04.setAttribute("fill", getColor(newValues[3]));

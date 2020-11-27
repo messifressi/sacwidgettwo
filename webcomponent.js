@@ -613,7 +613,6 @@
 		
 		setSquares(newValues){
 			console.log(newValues);
-			
 			var ks01 = this._shadowRoot.querySelector("#KS01");
 			ks01.setAttribute("fill", getColor(newValues[0]));
 			/*

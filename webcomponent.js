@@ -58,56 +58,56 @@
      inkscape:groupmode="layer"
      inkscape:label="Ebene 1">
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS10"
        width="10"
        height="20"
        x="570"
        y="79.999992" />
     <rect
+       fill="#008080"
        y="79.999992"
        x="647"
        height="20"
        width="10"
-       id="KS09"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS09"/>
     <rect
+       fill="#008080"
        y="79.999992"
        x="738"
        height="20"
        width="10"
-       id="KS08"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS08"/>
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS07"
        width="10"
        height="20"
        x="815"
        y="79.999992" />
     <rect
+       fill="#008080"
        y="79.999992"
        x="893"
        height="20"
        width="10"
-       id="KS06"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS06"/>
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS05"
        width="10"
        height="20"
        x="970"
        y="79.999992" />
     <rect
+       fill="#008080"
        y="79.999992"
        x="1058"
        height="20"
        width="10"
-       id="KS04"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS04"/>
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS03"
        width="10"
        height="20"
@@ -184,47 +184,47 @@
        x="205"
        y="89.999992" />
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS02"
        width="10"
        height="20"
        x="1285"
        y="59.999996" />
     <rect
+       fill="#008080"
        y="59.999996"
        x="1440"
        height="20"
        width="10"
-       id="KS01"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS01"/>
     <rect
+       fill="#008080"
        y="59.999996"
        x="265"
        height="20"
        width="10"
-       id="KS12"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS12"/>
     <rect
-       style="fill:#008080;fill-rule:evenodd"
+       fill="#008080"
        id="KS11"
        width="10"
        height="20"
        x="420"
        y="59.999996" />
     <rect
+       fill="#008080"
        y="80"
        x="500"
        height="20"
        width="10"
-       id="KS13"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS13"/>
     <rect
+       fill="#008080"
        y="80"
        x="1205"
        height="20"
        width="10"
-       id="KS14"
-       style="fill:#008080;fill-rule:evenodd" />
+       id="KS14"/>
     <path
        id="path127"
        d="m 655.5,110 v 50"

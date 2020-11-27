@@ -59,7 +59,7 @@
      inkscape:label="Ebene 1">
     <rect
        style="fill:#008080;fill-rule:evenodd"
-       id="SP10"
+       id="KS10"
        width="10"
        height="20"
        x="570"
@@ -69,18 +69,18 @@
        x="647"
        height="20"
        width="10"
-       id="SP09"
+       id="KS09"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        y="79.999992"
        x="738"
        height="20"
        width="10"
-       id="SP08"
+       id="KS08"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
-       fill="#008080"
-       id="square1"
+       style="fill:#008080;fill-rule:evenodd"
+       id="KS07"
        width="10"
        height="20"
        x="815"
@@ -90,11 +90,11 @@
        x="893"
        height="20"
        width="10"
-       id="square2"
+       id="KS06"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        style="fill:#008080;fill-rule:evenodd"
-       id="square3"
+       id="KS05"
        width="10"
        height="20"
        x="970"
@@ -104,39 +104,39 @@
        x="1058"
        height="20"
        width="10"
-       id="SP04"
+       id="KS04"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        style="fill:#008080;fill-rule:evenodd"
-       id="SP03"
+       id="KS03"
        width="10"
        height="20"
        x="1135"
        y="79.999992" />
     <rect
        style="fill:#999999"
-       id="KS04"
+       id="SP04"
        width="20"
        height="10"
        x="790"
        y="195" />
     <rect
        style="fill:#999999"
-       id="KS03"
+       id="SP03"
        width="20"
        height="10"
        x="790"
        y="205" />
     <rect
        style="fill:#999999"
-       id="KS02"
+       id="SP02"
        width="20"
        height="10"
        x="790"
        y="215" />
     <rect
        style="fill:#999999"
-       id="KS01"
+       id="SP01"
        width="20"
        height="10"
        x="790"
@@ -146,46 +146,46 @@
        x="920"
        height="10"
        width="20"
-       id="KS08"
+       id="SP08"
        style="fill:#999999" />
     <rect
        y="205"
        x="920"
        height="10"
        width="20"
-       id="KS07"
+       id="SP07"
        style="fill:#999999" />
     <rect
        y="215"
        x="920"
        height="10"
        width="20"
-       id="KS06"
+       id="SP06"
        style="fill:#999999" />
     <rect
        y="225"
        x="920"
        height="10"
        width="20"
-       id="KS05"
+       id="SP05"
        style="fill:#999999" />
     <rect
        style="fill:#999999"
-       id="KS10"
+       id="SP10"
        width="20"
        height="10"
        x="1490"
        y="89.999992" />
     <rect
        style="fill:#999999"
-       id="KS09"
+       id="SP09"
        width="20"
        height="10"
        x="205"
        y="89.999992" />
     <rect
        style="fill:#008080;fill-rule:evenodd"
-       id="SP02"
+       id="KS02"
        width="10"
        height="20"
        x="1285"
@@ -195,18 +195,18 @@
        x="1440"
        height="20"
        width="10"
-       id="SP01"
+       id="KS01"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        y="59.999996"
        x="265"
        height="20"
        width="10"
-       id="SP12"
+       id="KS12"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        style="fill:#008080;fill-rule:evenodd"
-       id="SP11"
+       id="KS11"
        width="10"
        height="20"
        x="420"
@@ -216,14 +216,14 @@
        x="500"
        height="20"
        width="10"
-       id="SP13"
+       id="KS13"
        style="fill:#008080;fill-rule:evenodd" />
     <rect
        y="80"
        x="1205"
        height="20"
        width="10"
-       id="SP14"
+       id="KS14"
        style="fill:#008080;fill-rule:evenodd" />
     <path
        id="path127"
@@ -586,6 +586,15 @@
         }
         */
 		
+		getColor(value){
+			if (value == 1){
+				return "#1EE61E";
+			}
+			else {
+				return "#A2A2A2";
+			}
+		}
+		
 		setSquare1(newColorValue){
 			var square1 = document.getElementById("#square1");
 			var square2 = document.getElementById("path#square1");
@@ -600,6 +609,39 @@
 			console.log(square3.fill);
 			console.log(square4);
 			console.log(square5);
+		}
+		
+		setSquare(newValues){
+			var square4 = this._shadowRoot.querySelector("#square1");
+			var ks01 = this._shadowRoot.querySelector("#KS01");
+			var ks02 = this._shadowRoot.querySelector("#KS02");
+			var ks03 = this._shadowRoot.querySelector("#KS03");
+			var ks04 = this._shadowRoot.querySelector("#KS04");
+			var ks05 = this._shadowRoot.querySelector("#KS05");
+			var ks06 = this._shadowRoot.querySelector("#KS06");
+			var ks07 = this._shadowRoot.querySelector("#KS07");
+			var ks08 = this._shadowRoot.querySelector("#KS08");
+			var ks09 = this._shadowRoot.querySelector("#KS09");
+			var ks10 = this._shadowRoot.querySelector("#KS10");
+			var ks11 = this._shadowRoot.querySelector("#KS11");
+			var ks12 = this._shadowRoot.querySelector("#KS12");
+			var ks13 = this._shadowRoot.querySelector("#KS13");
+			var ks14 = this._shadowRoot.querySelector("#KS14");
+			ks01.setAttribute("fill", getColor(newValues[0]));
+			ks02.setAttribute("fill", getColor(newValues[1]));
+			ks03.setAttribute("fill", getColor(newValues[2]));
+			ks04.setAttribute("fill", getColor(newValues[3]));
+			ks05.setAttribute("fill", getColor(newValues[4]));
+			ks06.setAttribute("fill", getColor(newValues[5]));
+			ks07.setAttribute("fill", getColor(newValues[6]));
+			ks08.setAttribute("fill", getColor(newValues[7]));
+			ks09.setAttribute("fill", getColor(newValues[8]));
+			ks10.setAttribute("fill", getColor(newValues[9]));
+			ks11.setAttribute("fill", getColor(newValues[10]));
+			ks12.setAttribute("fill", getColor(newValues[11]));
+			ks13.setAttribute("fill", getColor(newValues[12]));
+			ks14.setAttribute("fill", getColor(newValues[13]));
+
 		}
 
         redraw(){

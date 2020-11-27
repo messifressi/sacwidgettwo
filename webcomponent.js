@@ -586,8 +586,8 @@
         }
         */
 		
-		getColor(value){
-			if (value == 1){
+		function getColor(value){
+			if (value === 1){
 				return "#1EE61E";
 			}
 			else {
@@ -615,7 +615,7 @@
 			console.log(newValues);
 			var ks01 = this._shadowRoot.querySelector("#KS01");
 			console.log(ks01);
-			ks01.setAttribute("fill", "#1EE61E");
+			ks01.setAttribute("fill", getColor(newValues[1]));
 			/*
 			var ks02 = this._shadowRoot.querySelector("#KS02");
 			var ks03 = this._shadowRoot.querySelector("#KS03");

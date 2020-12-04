@@ -643,7 +643,6 @@
 			ks12.setAttribute("fill", this.getColor(newValues[11]));
 			ks13.setAttribute("fill", this.getColor(newValues[12]));
 			ks14.setAttribute("fill", this.getColor(newValues[13]));
-			*/
 
 		}
 

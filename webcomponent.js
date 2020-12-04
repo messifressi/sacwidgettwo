@@ -586,7 +586,7 @@
         }
         */
 		
-		function getColor(value){
+		getColor(value){
 			if (value === 1){
 				return "#1EE61E";
 			}

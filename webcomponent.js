@@ -615,8 +615,7 @@
 			console.log(newValues);
 			var ks01 = this._shadowRoot.querySelector("#KS01");
 			console.log(ks01);
-			ks01.setAttribute("fill", this.getColor(newValues[1]));
-			/*
+			ks01.setAttribute("fill", this.getColor(newValues[0]));
 			var ks02 = this._shadowRoot.querySelector("#KS02");
 			var ks03 = this._shadowRoot.querySelector("#KS03");
 			var ks04 = this._shadowRoot.querySelector("#KS04");
@@ -631,19 +630,19 @@
 			var ks13 = this._shadowRoot.querySelector("#KS13");
 			var ks14 = this._shadowRoot.querySelector("#KS14");
 			
-			ks02.setAttribute("fill", getColor(newValues[1]));
-			ks03.setAttribute("fill", getColor(newValues[2]));
-			ks04.setAttribute("fill", getColor(newValues[3]));
-			ks05.setAttribute("fill", getColor(newValues[4]));
-			ks06.setAttribute("fill", getColor(newValues[5]));
-			ks07.setAttribute("fill", getColor(newValues[6]));
-			ks08.setAttribute("fill", getColor(newValues[7]));
-			ks09.setAttribute("fill", getColor(newValues[8]));
-			ks10.setAttribute("fill", getColor(newValues[9]));
-			ks11.setAttribute("fill", getColor(newValues[10]));
-			ks12.setAttribute("fill", getColor(newValues[11]));
-			ks13.setAttribute("fill", getColor(newValues[12]));
-			ks14.setAttribute("fill", getColor(newValues[13]));
+			ks02.setAttribute("fill", this.getColor(newValues[1]));
+			ks03.setAttribute("fill", this.getColor(newValues[2]));
+			ks04.setAttribute("fill", this.getColor(newValues[3]));
+			ks05.setAttribute("fill", this.getColor(newValues[4]));
+			ks06.setAttribute("fill", this.getColor(newValues[5]));
+			ks07.setAttribute("fill", this.getColor(newValues[6]));
+			ks08.setAttribute("fill", this.getColor(newValues[7]));
+			ks09.setAttribute("fill", this.getColor(newValues[8]));
+			ks10.setAttribute("fill", this.getColor(newValues[9]));
+			ks11.setAttribute("fill", this.getColor(newValues[10]));
+			ks12.setAttribute("fill", this.getColor(newValues[11]));
+			ks13.setAttribute("fill", this.getColor(newValues[12]));
+			ks14.setAttribute("fill", this.getColor(newValues[13]));
 			*/
 
 		}

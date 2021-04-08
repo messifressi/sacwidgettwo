@@ -1,0 +1,37 @@
+{
+	"name": "Squares",
+	"description": "Change the color of an SVG square",
+	"eula": "",
+	"vendor": "",
+	"license": "",
+	"id": "com.sap.sample.squares",
+	"newInstancePrefix": "Squares",
+	"version": "0.0.1",
+	"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABNSURBVDhP7cuxDcAgEMDAH4QqYhymzAZsRUPDAtBZkfUNfaQr7ZilpuIdOXVwB3VwB3VwB3VwB3VwB3VwB3Vwh6e31F6R+ocvdbgcVhzof3HQqnQ9AQAAAABJRU5ErkJggg==",
+	"webcomponents": [
+        {
+			"kind": "main",
+			"tag": "com-sap-sample-squares",
+            "url": "https://messifressi.github.io/sacwidgettwo/webcomponent.js",
+            "integrity": "",
+            "ignoreIntegrity" : true
+        }
+    ],
+	"properties": {
+		
+	},
+	"methods": {
+		"setSquares": {
+			"description": "Update colors of squares",
+			"parameters": [
+				{
+					"name": "newValues",
+					"type": "number[]",
+					"description": "The values for squares"
+				}
+			]
+		}
+	},
+	"events": {
+	}
+}
